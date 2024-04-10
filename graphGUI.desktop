@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Data App
 Comment=Runs the environmental sensor GUI interface
-Icon=/home/pi/dosenet-raspberrypi-1/GUI_graph_icon.jpg
-Exec=python3 /home/pi/dosenet-raspberrypi-1/GUI_interface_pyqt.py
+Icon=/home/pi/dosenet-raspberrypi/GUI_graph_icon.jpg
+Exec=python3 /home/pi/dosenet-raspberrypi/GUI_interface_pyqt.py
 Type=Application
 Encoding=UTF-8
 Terminal=true
