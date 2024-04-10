@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Upload
+Comment=Runs the environmental sensor GUI interface
+Icon=/home/pi/upload_icon.png
+Exec=python3 /home/pi/data_upload.py
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;

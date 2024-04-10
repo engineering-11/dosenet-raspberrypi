@@ -1,0 +1,14 @@
+#!/usr/bin/expect -f
+
+set interval [lindex $argv 0];
+
+#spawn sudo python /home/pi/dosenet-raspberrypi-1/D3S_rabbitmq_DAQ.py -i $interval
+spawn sudo python /home/pi/dosenet-raspberrypi-1/test_D3S.py -i $interval
+
+expect "password for pi:"
+send -- "piistasty!\r"
+
+#interact
+
+expect eof
+exit
