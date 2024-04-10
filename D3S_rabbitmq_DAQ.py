@@ -14,7 +14,7 @@ import json
 import csv
 import os
 
-sys.path.append("/home/pi/dosenet-raspberrypi-1/kromek_d3s_driver-main")
+sys.path.append("/home/pi/dosenet-raspberrypi/kromek_d3s_driver-main")
 import capture
 
 sys.stdout.flush()
