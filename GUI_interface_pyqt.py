@@ -224,7 +224,7 @@ class App(QWidget):
             script = 'adc_DAQ.py'
             log = 'CO2_gui.log'
 
-        cmd_head = '{} /home/pi/dosenet-raspberrypi-1/{}'.format(py, script)
+        cmd_head = '{} /home/pi/dosenet-raspberrypi/{}'.format(py, script)
         cmd_options = ' -i {}'.format(self.integration_time)
         cmd_log = ' > /tmp/{} 2>&1 &'.format(log)
         cmd = cmd_head + cmd_options + cmd_log
